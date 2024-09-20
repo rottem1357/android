@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.shoppingmanagementapp",
+  "applicationId": "com.example.shoopingmanagementapp",
   "variantName": "debug",
   "elements": [
     {

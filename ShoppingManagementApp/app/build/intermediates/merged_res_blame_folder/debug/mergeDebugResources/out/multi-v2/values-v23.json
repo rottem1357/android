@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shoppingmanagementapp-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.example.shoopingmanagementapp-mergeDebugResources-29:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rotte\\.gradle\\caches\\transforms-4\\d7f7c62f1f7318288fe4165a0dd3b10d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

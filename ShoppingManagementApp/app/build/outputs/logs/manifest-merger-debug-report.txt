@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rotte\.gradle\caches\transforms-4\a085c678fcd2428305dcec0220e0f0da\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rotte\.gradle\caches\transforms-4\62fd14aeab2a2be015adaff503a8bee9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\rotte\.gradle\caches\transforms-4\397a0942bd9b2b252e6ea41063404ff2\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -46,18 +46,18 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\rotte\.gradle\caches\transforms-4\285120fb6c872dd35474755bf3a1aef6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rotte\.gradle\caches\transforms-4\db2e8747a03a06786c39f14e8f111731\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:5:5-38:19
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml:5:5-38:19
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:5:5-38:19
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:5:5-38:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rotte\.gradle\caches\transforms-4\a085c678fcd2428305dcec0220e0f0da\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rotte\.gradle\caches\transforms-4\a085c678fcd2428305dcec0220e0f0da\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rotte\.gradle\caches\transforms-4\62fd14aeab2a2be015adaff503a8bee9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -75,65 +75,65 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rotte\.gradle\cach
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rotte\.gradle\caches\transforms-4\c178d65ed157f8ef58f85f8c2437acfd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rotte\.gradle\caches\transforms-4\c178d65ed157f8ef58f85f8c2437acfd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:13:9-59
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:13:9-59
 	android:dataExtractionRules
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.shoppingmanagementapp.MainActivity
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:17:9-24:20
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.shoopingmanagementapp.MainActivity
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:17:9-24:20
 	android:exported
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:18:13-41
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:20:13-23:29
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.example.shoppingmanagementapp.LoginActivity
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:27:9-28:39
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.shoopingmanagementapp.LoginActivity
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:27:9-28:39
 	android:exported
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:28:13-36
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:27:19-48
-activity#com.example.shoppingmanagementapp.RegisterActivity
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:31:9-32:39
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:27:19-48
+activity#com.example.shoopingmanagementapp.RegisterActivity
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:31:9-32:39
 	android:exported
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:31:19-51
-activity#com.example.shoppingmanagementapp.ProductActivity
-ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:35:9-36:39
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:31:19-51
+activity#com.example.shoopingmanagementapp.ProductActivity
+ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:35:9-36:39
 	android:exported
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\dev\android\app\src\main\AndroidManifest.xml:35:19-50
+		ADDED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml:35:19-50
 uses-sdk
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rotte\.gradle\caches\transforms-4\a085c678fcd2428305dcec0220e0f0da\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rotte\.gradle\caches\transforms-4\a085c678fcd2428305dcec0220e0f0da\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rotte\.gradle\caches\transforms-4\62fd14aeab2a2be015adaff503a8bee9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -217,9 +217,9 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\rotte\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rotte\.gradle\caches\transforms-4\db2e8747a03a06786c39f14e8f111731\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rotte\.gradle\caches\transforms-4\db2e8747a03a06786c39f14e8f111731\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\dev\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\android\ShoppingManagementApp\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rotte\.gradle\caches\transforms-4\57b955a0e4e916a95d01c50174fb4a7d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rotte\.gradle\caches\transforms-4\2eed0b3a918b4966960727c39b29a7f7\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
@@ -254,7 +254,7 @@ ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-
 		ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-permission#com.example.shoppingmanagementapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.shoopingmanagementapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
@@ -264,7 +264,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.shoppingmanagementapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.shoopingmanagementapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\rotte\.gradle\caches\transforms-4\f3a9cf4ee370e5d6f7905fa9840b16ac\transformed\core-1.13.0\AndroidManifest.xml:26:22-94

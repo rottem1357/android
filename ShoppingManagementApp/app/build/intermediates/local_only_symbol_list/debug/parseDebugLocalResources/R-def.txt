@@ -39,6 +39,7 @@ string remove_product
 string user_welcome_message
 string username_hint
 string welcome_message
+style Base.Theme.ShopingManagementApp
 style Base.Theme.ShoppingManagementApp
 style Theme.ShoppingManagementApp
 xml backup_rules
