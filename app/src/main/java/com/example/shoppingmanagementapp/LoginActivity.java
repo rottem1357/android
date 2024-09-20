@@ -1,5 +1,6 @@
 package com.example.shoppingmanagementapp;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,7 +37,10 @@ public class LoginActivity extends AppCompatActivity {
             // Validate the login credentials
             if (enteredUsername.equals(storedUsername) && enteredPassword.equals(storedPassword)) {
                 Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                // Redirect to another screen after successful login, e.g., home screen
+
+                // Navigate to ProductActivity after successful login
+                Intent intent = new Intent(LoginActivity.this, ProductActivity.class);
+                startActivity(intent);
             } else {
                 Toast.makeText(LoginActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
             }
