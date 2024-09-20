@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_product">Add Product</string>
+    <string name="app_name">ShoppingManagementApp</string>
+    <string name="default_welcome_message">Welcome, User</string>
+    <string name="login_button_text">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="product_name_hint">Product Name</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="register_button_text">Register</string>
+    <string name="remove_product">Remove Product</string>
+    <string name="user_welcome_message">Welcome, %1$s\nPhone: %2$s</string>
+    <string name="username_hint">Username</string>
+    <string name="welcome_message">Welcome to Shopping Management App</string>
+    <style name="Base.Theme.ShoppingManagementApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ShoppingManagementApp" parent="Base.Theme.ShoppingManagementApp"/>
+</resources>
