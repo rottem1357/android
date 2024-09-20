@@ -6,7 +6,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -24,8 +26,20 @@ public class ProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
 
-        // Initialize SharedPreferences and product set
-        sharedPreferences = getSharedPreferences("ProductPrefs", MODE_PRIVATE);
+        // Initialize SharedPreferences
+        sharedPreferences = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+
+        // Retrieve user info from SharedPreferences
+        String username = sharedPreferences.getString("username", "User");
+        String phoneNumber = sharedPreferences.getString("phone", "N/A");
+
+        // Set the user information on the TextView
+        TextView userInfoTextView = findViewById(R.id.userInfoTextView);
+        // Set the user information on the TextView using a string resource with placeholders
+        String userInfoText = getString(R.string.user_welcome_message, username, phoneNumber);
+        userInfoTextView.setText(userInfoText);
+
+        // Initialize product set and list
         productSet = sharedPreferences.getStringSet("products", new HashSet<>());
         productList = new ArrayList<>(productSet);
 
@@ -40,45 +54,57 @@ public class ProductActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, productList);
         productListView.setAdapter(adapter);
 
-        // Add product to list
+        // Add product to list (same as before)
         addProductButton.setOnClickListener(v -> {
             String productName = productNameEditText.getText().toString();
-            String productQuantity = productQuantityEditText.getText().toString();
-            String productEntry = productName + " (x" + productQuantity + ")";
+            String productQuantityStr = productQuantityEditText.getText().toString();
 
-            if (!productName.isEmpty() && !productQuantity.isEmpty()) {
-                productList.add(productEntry);
-                adapter.notifyDataSetChanged();
-
-                // Save products to SharedPreferences
-                productSet.add(productEntry);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putStringSet("products", productSet);
-                editor.apply();
-
-                Toast.makeText(ProductActivity.this, "Product Added", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(ProductActivity.this, "Please enter both name and quantity", Toast.LENGTH_SHORT).show();
+            if (productName.isEmpty()) {
+                Toast.makeText(ProductActivity.this, "Product name cannot be empty", Toast.LENGTH_SHORT).show();
+                return;
             }
+
+            if (productQuantityStr.isEmpty() || Integer.parseInt(productQuantityStr) <= 0) {
+                Toast.makeText(ProductActivity.this, "Quantity must be a positive number", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            String productEntry = productName + " (x" + productQuantityStr + ")";
+            productList.add(productEntry);
+            adapter.notifyDataSetChanged();
+
+            // Save products to SharedPreferences
+            productSet.add(productEntry);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putStringSet("products", productSet);
+            editor.apply();
+
+            Toast.makeText(ProductActivity.this, "Product Added", Toast.LENGTH_SHORT).show();
         });
 
-        // Remove product from list
+        // Remove product from list (same as before)
         removeProductButton.setOnClickListener(v -> {
             String productName = productNameEditText.getText().toString();
-            String productQuantity = productQuantityEditText.getText().toString();
-            String productEntry = productName + " (x" + productQuantity + ")";
+            String productQuantityStr = productQuantityEditText.getText().toString();
+            String productEntry = productName + " (x" + productQuantityStr + ")";
 
             if (productList.contains(productEntry)) {
-                productList.remove(productEntry);
-                adapter.notifyDataSetChanged();
+                new AlertDialog.Builder(ProductActivity.this)
+                        .setTitle("Remove Product")
+                        .setMessage("Are you sure you want to remove " + productEntry + "?")
+                        .setPositiveButton("Yes", (dialog, which) -> {
+                            productList.remove(productEntry);
+                            adapter.notifyDataSetChanged();
 
-                // Save changes to SharedPreferences
-                productSet.remove(productEntry);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putStringSet("products", productSet);
-                editor.apply();
+                            productSet.remove(productEntry);
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putStringSet("products", productSet);
+                            editor.apply();
 
-                Toast.makeText(ProductActivity.this, "Product Removed", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ProductActivity.this, "Product Removed", Toast.LENGTH_SHORT).show();
+                        })
+                        .setNegativeButton("No", null)
+                        .show();
             } else {
                 Toast.makeText(ProductActivity.this, "Product not found", Toast.LENGTH_SHORT).show();
             }

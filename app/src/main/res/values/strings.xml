@@ -10,4 +10,6 @@
     <string name="add_product">Add Product</string>
     <string name="remove_product">Remove Product</string>
     <string name="welcome_message">Welcome to Shopping Management App</string>
+    <string name="user_welcome_message">Welcome, %1$s\nPhone: %2$s</string>
+    <string name="default_welcome_message">Welcome, User</string>
 </resources>
