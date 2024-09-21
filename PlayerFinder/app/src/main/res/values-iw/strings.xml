@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">חיפוש שחקן</string>
+    <string name="current_language">שפה נוכחית: </string>
+    <string name="navigation">ניווט</string>
+    <string name="search">חיפוש</string>
+    <string name="settings">הגדרות</string>
+    <string name="choose_language">בחר שפה</string>
+    <string name="english">אנגלית</string>
+    <string name="hebrew">עברית</string>
+    <string name="current_language_english">שפה נוכחית: אנגלית</string>
+    <string name="current_language_hebrew">שפה נוכחית: עברית</string>
+</resources>
