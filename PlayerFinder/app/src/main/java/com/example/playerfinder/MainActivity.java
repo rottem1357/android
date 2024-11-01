@@ -122,5 +122,4 @@ public class MainActivity extends AppCompatActivity {
             languageLabel.setText(getString(R.string.current_language_hebrew)); // Now for "iw"
         }
     }
-
 }
