@@ -1,18 +1,12 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
-        mavenCentral()
-        gradlePluginPortal()
+        google()     // Google's repository for Android libraries
+        mavenCentral() // Maven Central for other dependencies
+        gradlePluginPortal() // Gradle plugin portal for plugins
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
@@ -21,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "PlayerFinder"
 include(":app")
- 
